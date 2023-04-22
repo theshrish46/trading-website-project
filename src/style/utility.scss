@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+}
+.section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    // border: 2px solid green;
+}
+
+@media(min-width: 475px) {
+    .container{
+        max-width: 475px;
+        margin: 0rem auto;
+    }
+} 
+
+@media(min-width: 640px) {
+    .container {
+        max-width: 640px;
+        margin: 0rem auto;
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0rem auto;
+    }
+} 
+
+@media(min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        margin: 0rem auto;
+    }
+} 
+
+@media(min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+        margin: 0rem auto;
+    }
+}

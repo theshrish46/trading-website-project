@@ -1,0 +1,77 @@
+@import "./color.scss";
+
+
+header {
+  height: $xl7;
+  width: 100%;
+  padding: 0rem 1rem;
+  position: sticky;
+  box-shadow: 0px 0px 3px gray, 0px 0px 13px gray;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-logo,
+  .header-profile {
+    height: $xl5;
+    width: auto;
+  }
+
+  .header-profile {
+    div {
+      height: 2.5rem;
+      width: 4.2rem;
+      background-color: rgb(223, 216, 216);
+      border-radius: 30px;
+      position: relative;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      img {
+        border-radius: 30px;
+      }
+    }
+
+    .header__menu {
+      background-color: $white;
+      height: 12rem;
+      width: 14rem;
+      padding: 0rem 1rem;
+      box-shadow: 0px 0px 0px gray, 1px 1px 5px gray;
+      border-radius: 0px 0px 10px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 70px;
+      z-index: 1;
+      right: 20px;
+      display: none;
+      
+      ul {
+          height: 100%;
+          font-size: 1.1rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-start;
+          
+          li {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+              .header-icon {
+                  color: $red;
+                  font-size: 1.95rem;
+                  padding-right: 0.5rem;
+                }
+        }
+      }
+    }
+    
+  }
+}
